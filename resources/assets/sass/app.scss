@@ -1,0 +1,38 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//.navbar-laravel {
+//  background-color: #fff;
+//  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+//}
+
+.container {
+
+  &.content {
+    padding: 2rem;
+    background: #eaeaea;
+    border-radius: .3rem;
+  }
+  &.container-nogutter {
+    padding: 0px;
+  }
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+
+[data-href] {
+  cursor: pointer;
+}
